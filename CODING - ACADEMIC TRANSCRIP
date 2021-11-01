@@ -1,0 +1,39 @@
+package numeric_data;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double sem1 = 3.17, sem2 = 3.25, total;
+		
+		String name = "Nurul Shakirah binti Otsman";
+		
+		total = (sem1 + sem2) / 2;
+		
+		System.out.println();
+		System.out.println();
+		System.out.println(" ----------------------<< Academic Transcript >>----------------------");
+		System.out.println();
+		System.out.println();
+		
+		System.out.println(" <> Name       : " +name);
+		System.out.println(" <> Matric no. : MS2017106457"  );
+		System.out.println(" <> Programme  : Science - Module II - Two Semester System");
+		System.out.println(" <> College    : Kolej Matrikulasi Perak");
+		System.out.println(" <> Session    : 2020/2021");
+		System.out.println();
+		System.out.println();
+		
+		System.out.println(" <> GPA for Semester 1 2020/2021 Session : " + sem1);
+		System.out.println(" <> GPA for Semester 2 2020/2021 Session : " + sem2);
+		System.out.println();
+		System.out.println();
+		
+		System.out.println(" <> CGPA for 2020/2021 Session : " + total);
+
+
+
+	}
+
+}
