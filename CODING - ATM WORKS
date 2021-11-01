@@ -1,0 +1,89 @@
+package numeric_data;
+
+import java.util.Scanner;
+
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+        int num1, num2, num3, num4, num5, num6;
+        
+        double bal1, bal2, amount;
+       
+        String name;
+        
+        char Y, N;
+        
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Please enter name : ");
+		name = sc.nextLine();
+		System.out.println();
+		
+		System.out.println("Welcome " +name);
+		System.out.println();
+		System.out.println();
+		
+		System.out.print("Please enter your balance : ");
+		bal1 = sc.nextDouble();
+		
+		System.out.println();
+		
+		System.out.print("Please enter your amount : ");
+		amount = sc.nextDouble();
+		bal2 = bal1 - amount;
+		
+		System.out.println();
+		System.out.println("Your current balance is RM" +bal2);
+		System.out.printf("Your current balance is RM%.2f", bal2);
+		
+		System.out.println();
+		System.out.println();
+		
+		System.out.println("Would you like to proceed?");
+		Y = sc.next().charAt(0);
+		System.out.println("YES " +Y);
+		
+		System.out.println();
+		
+		System.out.println("Would you like to proceed?");
+		N = sc.next().charAt(0);
+		System.out.println("NO " +N);
+		
+		System.out.println();
+		System.out.println();
+		
+		System.out.print("Please enter the amount : ");
+		num1 = sc.nextInt();
+		
+		System.out.print("Please enter the amount : ");
+		num2 = sc.nextInt();
+		
+		System.out.print("Please enter the amount : ");
+		num3 = sc.nextInt();
+		
+		System.out.print("Please enter the amount : ");
+		num4 = sc.nextInt();
+		
+		System.out.print("Please enter the amount : ");
+		num5 = sc.nextInt();
+		
+		System.out.print("Please enter the amount : ");
+		num6 = sc.nextInt();
+		
+		System.out.println();
+		
+		System.out.println("The amount is RM" +num1);
+		System.out.println("The amount is RM" +num2);
+		System.out.println("The amount is RM" +num3);
+		System.out.println("The amount is RM" +num4);
+		System.out.println("The amount is RM" +num5);
+		System.out.println("The amount is RM" +num6);
+		System.out.println();
+		
+	
+
+	}
+
+}
