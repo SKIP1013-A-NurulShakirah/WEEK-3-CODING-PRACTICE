@@ -1,0 +1,41 @@
+package self_programming;
+
+import java.util.Scanner;
+
+    //********************************************************************
+	//  GasMileage.java       Author: Lewis/Loftus
+	//
+	//  Demonstrates the use of the Scanner class to read numeric data.
+	//********************************************************************
+
+    public class InputTokens_GasMileage {
+	
+	//-----------------------------------------------------------------
+	//  Calculates fuel efficiency based on values entered by the
+	//  user.
+	//-----------------------------------------------------------------
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	     int miles;
+	     double gallons, mpg;
+
+	     Scanner sc = new Scanner (System.in);
+	     
+
+	     System.out.println("Enter the number of miles: ");
+	     miles = sc.nextInt();
+
+	     System.out.println("Enter the gallons of fuel used: ");
+	     gallons = sc.nextDouble();
+
+	     mpg = miles / gallons;
+
+	     System.out.println("Miles Per Gallon: " + mpg);
+	     
+	     System.out.printf("\n" + "Miles Per Gallon %.2f", mpg);
+
+	}
+
+}
