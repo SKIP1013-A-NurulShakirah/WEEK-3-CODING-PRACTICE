@@ -1,0 +1,21 @@
+package self_programming;
+
+public class E_Notation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//e notation is also called scientific notation or floating-point notation.
+        /*Examples :
+         *865000000.0 can be written as 8.65e8
+         *0.000483 can be written as 4.83e-4
+         */
+        //The number in front of the e does not need to contain a decimal point.
+		
+		double input1 = 8.65;
+		System.out.printf("%e", input1);
+
+
+	}
+
+}
