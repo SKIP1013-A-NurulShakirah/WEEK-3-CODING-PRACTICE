@@ -1,0 +1,46 @@
+package self_programming;
+
+public class Assignment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Assignment Statement : used to assign a value to a variable
+		
+		int answer = 42;
+		System.out.println(answer);
+		
+		//answer = 42; 
+		// --> The variable named 'answer' is assigned a value of '42'
+		// --> 'answer' is assigned to '42'
+		
+		//variable = expression
+		/*where expression can be another variable, a literal or 
+		 constant (such as a number), or something more complicated which 
+		 combines variables and literals using operators (such as + and -)
+		 */
+		/*Example :
+		 *double amount = 3.99;
+         *char firstInitial = 'W';
+         *score = numberOfCards + handicap;
+         *eggsPerBasket = eggsPerBasket - 2;
+         */
+		
+		double amount = 3.99;
+		 System.out.println(amount);
+		 
+        char firstInitial = 'W';
+         System.out.println(firstInitial);
+		
+		//Assignment compatibilities: byte-->short-->int-->long-->float-->double
+		
+        int num1=5;
+		double num2=35, sum;
+		
+		sum = num1 + num2;
+		System.out.println(sum);
+
+
+	}
+
+}
