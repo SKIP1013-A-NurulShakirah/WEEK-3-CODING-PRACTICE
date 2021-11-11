@@ -1,0 +1,21 @@
+package myScanner;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter an integer :");
+		num = scan.nextInt();
+	
+		System.out.println("Using the nextInt():" +num);
+
+	}
+
+}
