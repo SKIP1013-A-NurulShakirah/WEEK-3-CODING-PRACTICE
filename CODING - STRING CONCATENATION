@@ -1,0 +1,17 @@
+package self_programming;
+
+public class StringConcatenation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//The string concatenation operator (+) is used to append one string to the end of another
+		//Can also be used to append a number to a string
+		//A string literal cannot be broken across two lines in a program
+
+		
+		System.out.println("Peanut butter " + "and jelly");
+
+	}
+
+}
