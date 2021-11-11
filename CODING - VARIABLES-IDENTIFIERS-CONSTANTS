@@ -1,0 +1,56 @@
+package self_programming;
+
+public class VariablesIdentifiersConstants {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//----------VARIABLES----------
+		
+		//Variable              : a name for a location in memory that holds a value
+		//Variable declaration  : specifies the variable's name and the type of information that it will hold 
+		//Example data type     : int, double, string, float, char
+		//Example variable name : total, count, sum, average
+				
+		int num1 = 10, num2 = 50, sum;
+				
+		sum = num1 + num2;
+				
+		System.out.println("The sum of two numbers is " +sum);
+		System.out.println("\n");
+		
+		
+		//----------IDENTIFIERS----------
+		
+		//Variable names : start with a 'lowercase' letter 
+		//Class names    : start with an 'uppercase' letter 
+		//Constant names : are in 'uppercase' letters
+
+		
+		//----------CONSTANTS----------
+		
+		//Constant : an identifier that is similar to a variable except that it holds the same value during its entire existence
+		//As the name implies, it is constant, not variable
+		//The compiler will issue an error if you try to change the value of a constant
+		//In Java, we use the 'final' modifier to declare a constant
+		//Example : final int MIN_HEIGHT = 69;
+		
+		final double PI = 3.14159265;
+		
+		System.out.println("The PI value is " +PI);
+		System.out.println("\n");
+		
+		//Constants are useful for three important reasons:
+		
+		//(i) They give meaning to otherwise unclear literal values
+		        //(Example: MAX_LOAD means more than the literal 250)
+		
+		//(ii) They facilitate program maintenance 
+		          //(If a constant is used in multiple places, its value need only be set in one place)
+		
+		//(iii) They formally establish that a value should not change, avoiding inadvertent errors by other programmers
+
+
+	}
+
+}
