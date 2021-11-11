@@ -1,0 +1,69 @@
+package self_programming;
+
+public class NumericPrimitiveData {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          
+        /*Type        : byte
+         * Storage    : 8 bits
+         * Min. value : -128
+         * Max. value : 127 
+         */
+
+		/*Type        : short
+         * Storage    : 16 bits
+         * Min. value : -32,768
+         * Max. value : 327,67
+         */
+		
+		/*Type        : int
+         * Storage    : 32 bits
+         * Min. value : -2,147,483,648
+         * Max. value : 2,147,483,647
+         */
+		
+		/*Type        : long
+         * Storage    : 64 bits
+         * Min. value : < -9 x 10 power of 18
+         * Max. value : > -9 x 10 power of 18
+         */
+		
+		/*Type        : float
+         * Storage    : 32 bits
+         * Value      : +/- 3.4 x 10 power of 38 with 7 significant digits 
+         */
+		
+		/*Type        : double
+         * Storage    : 64 bits
+         * Value      : +/- 1.7 x 10 power of 308 with 15 significant digits 
+         */
+		
+		//----------OVERFLOW----------
+		
+		//storage for a variable cannot hold the result.
+		//Example:
+		
+		  int oneThousand = 1000;   // no problem
+		  int oneMillion = 1000 * oneThousand;  // OK
+		  int oneBillion = 1000 * oneMillion;   // OK
+		  int threeBillion = 3 * oneBillion;    // ??
+		  
+		  System.out.println(oneThousand);
+		  System.out.println(oneMillion);
+		  System.out.println(oneBillion);
+		  System.out.println(threeBillion);  //will print out -1294976296   
+		  
+		/*Why?
+		 *The result (3 billion) overflowed int capacity
+		 *Maximum value for an int is +2,147,483,647
+		 *Use a long instead of an int (or a double)
+		 */
+		  
+		  
+
+
+
+	}
+
+}
