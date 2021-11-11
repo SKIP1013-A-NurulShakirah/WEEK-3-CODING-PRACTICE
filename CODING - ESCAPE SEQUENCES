@@ -1,0 +1,61 @@
+package self_programming;
+
+public class EscapeSequences {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//The following line would confuse the compiler because it would interpret the second quote as the end of the string
+		//System.out.println ("I said "Hello" to you.");
+		
+		//An escape sequence is a series of characters that represents a special character
+		//An escape sequence begins with a backslash character (\)
+		
+		System.out.println ("I said \"Hello\" to you.");
+		System.out.println ("\n");
+		
+		//------------------------------------------------------------------------------------------------------------------------
+		
+		//[ \b ] : backspace
+		//[ \t ] : tab
+		//[ \n ] : new line
+		//[ \r ] : carriage return
+		//[ \" ] : double quote
+		//[ \' ] : single quote
+		//[ \\ ] : backlash
+		
+		//---------------------------------------------------------
+		
+		//double quote
+		System.out.println ("I said \"Hello\" to you.");
+		System.out.println ();
+		
+		//single quote
+		System.out.println ("I said \'Hello\' to you.");
+		System.out.println ();
+		
+		//tab
+		System.out.println ("I said \t\"Hello\"\t to you.");
+		System.out.println ();
+		
+		//new line
+		System.out.println ("I said \n\"Hello\"\n to you.");
+		System.out.println ();
+		
+		//carriage return
+		System.out.println ("I said \r\"Hello\"\r to you.");
+		System.out.println ();
+		
+		//backlash
+		System.out.println ("I said \\Hello\\ to you.");
+		System.out.println ();
+		
+		//backspace
+		System.out.println ("I said \bHello\b to you.");
+		System.out.println ();
+	
+
+
+	}
+
+}
