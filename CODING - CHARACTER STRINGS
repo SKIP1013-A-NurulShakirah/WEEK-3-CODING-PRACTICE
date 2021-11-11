@@ -1,0 +1,21 @@
+package self_programming;
+
+public class CharacterStrings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String input1 = "This is a string literal.";
+		
+		String input2 = "123 Main Street";
+		
+		String input3 = "X";
+		
+		System.out.println(input1);
+		System.out.println(input2);
+		System.out.println(input3);
+
+
+	}
+
+}
