@@ -1,0 +1,84 @@
+package self_programming;
+
+public class Expressions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Expression: A data value, or a set of operations that compute a data value.
+		//Example: 1 + 4 * 3
+	    //The simplest expression is a literal value.
+	    //A more complex expression can have operatorsand/or parentheses.
+        //The values that an operator applies to are called operands.
+		//Common arithmetic operators: (+), (-), (*), (/), (%)
+		
+		//----------EVALUATING EXPRESSION----------
+		
+		/*When your Java program executes and encounters a line with an expression, 
+		  the expression is evaluated (its value is computed).*/
+		
+		        System.out.println(3*4);  //it prints 12, not 3 * 4.
+		
+	    /*When an expression contains more than one operator of the same kind,
+	      it is evaluated left-to-right*/
+		        
+		        System.out.println(1+2+3);
+		        System.out.println((1+2)+3);    //both answers are 6
+		        
+		        System.out.println(1-2-3);
+		        System.out.println((1-2)-3);    //The answer is -4 
+		                                        //not the same as [ 1-(2-3) ] which is 2
+		        System.out.println(1-(2-3));
+		        
+		        System.out.println("\n"); 
+		        
+		//Other examples;
+		        
+		        //rate * rate + delta    --->   (rate * rate) + delta
+		        //2 * (salary + bonus)   --->   2 * (salary + bonus)
+		        //1 / (time + 3 * mass)  --->   1 / (time + (3 * mass))
+		        //(a - 7) / (t + 9 * v)  --->   (a - 7) / (t + (9 * v))
+		        
+		        
+	    //----------INTEGER DIVISION----------
+		
+		//When we divide integers, the result is also an integer: the integer quotient.
+		//The integer quotient of dividing 14 by 4 is 3.
+		//The integer remainder of dividing 14 by 4 is 2.
+		        
+		        System.out.println(14/4);    //the output displayed is 3 not 3.5
+		        
+		        System.out.println(35/5);    //the output displayed is 7
+		        System.out.println(84/10);   //the output displayed is 80 instead of 8.4
+		        System.out.println(156/100); //the output displayed is 1 instead of 1.56
+		        
+		        //dividing by 0 causes a runtime error in your program
+		        
+		        System.out.println("\n"); 
+		        
+		        
+	    //----------INTEGER REMAINDER----------  
+		        
+		//The % operator computes the remainder from a division of integers.
+		//Example: 14 % 4 is 2
+		//Example: 218 % 5 is 3
+		        
+		        System.out.println(14%4);   //balance of division operation is 2
+		        System.out.println(218%5);  //balance of division operation is 3
+		        System.out.println("\n");  
+		
+		//Other examples:
+		        
+		        System.out.println(45%6);   //balance is 3
+		        System.out.println(2%2);    //balance is 0
+		        System.out.println(8%20);   //balance is 8
+		      //System.out.println(11%0);   //runtime error because can't be divided by 0
+
+
+
+
+
+
+	}
+
+}
